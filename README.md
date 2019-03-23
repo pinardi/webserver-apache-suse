@@ -10,7 +10,7 @@ zypper install httpd
 systemctl start apache2
 ```
 
-## Edit file config 
+## Edit file config
 
 ```bash
 vi /etc/apache2/conf.d/example.conf
@@ -31,7 +31,7 @@ CustomLog /var/log/apache2/example.com-access_log common
 </VirtualHost>
 
 ```
-change "ServerAdmin", "DocumentRoot", "ServerName" 
+change "ServerAdmin", "DocumentRoot", "ServerName"
 
 ## Document upload
 Create directory
@@ -39,3 +39,6 @@ Create directory
 mkdir /srv/www/htdocs/example
 ```
 create index.html, edit, and save file to /srv/www/htdoc
+```bash
+<html><body><h1>SUSE WEBSERVER Jogjacamp (IDWEBHOST)</h1></body></html>
+```
