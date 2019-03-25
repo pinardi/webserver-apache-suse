@@ -40,9 +40,13 @@ change "ServerAdmin", "DocumentRoot", "ServerName"
 ## Document upload
 Create directory
 ```bash
-mkdir /srv/www/htdocs/example
+mkdir /srv/www/htdocs/web2
 ```
 create index.html, edit, and save file to /srv/www/htdoc
 ```bash
 <html><body><h1>SUSE WEBSERVER Jogjacamp (IDWEBHOST)</h1></body></html>
 ```
+edit index.html and save to /srv/www/htdocs/web2
+
+## link
+http://192.168.12.22/web2/index.html
