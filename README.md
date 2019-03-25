@@ -17,7 +17,7 @@ systemctl start sshd
 ## Edit file config
 
 ```bash
-vi /etc/apache2/conf.d/example.conf
+nano /etc/apache2/conf.d/example.conf
 ```
 ```bash
 <VirtualHost *:80>
