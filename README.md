@@ -9,16 +9,11 @@ zypper install httpd
 
 systemctl start apache2
 ```
-##activate ssh SUSE
-```bash
-systemctl enable sshd
-systemctl start sshd
-```
 
 ## Edit file config
 
 ```bash
-nano /etc/apache2/conf.d/example.conf
+vi /etc/apache2/conf.d/example.conf
 ```
 ```bash
 <VirtualHost *:80>
