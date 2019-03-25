@@ -9,7 +9,11 @@ zypper install httpd
 
 systemctl start apache2
 ```
-
+## Activated SSH SUSE
+```bash
+systemctl enable sshd
+systemctl start sshd
+```
 ## Edit file config
 
 ```bash
